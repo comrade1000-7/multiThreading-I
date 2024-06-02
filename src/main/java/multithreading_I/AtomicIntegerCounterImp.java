@@ -1,3 +1,5 @@
+package multithreading_I;
+
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class AtomicIntegerCounterImp implements SiteVisitCounter{

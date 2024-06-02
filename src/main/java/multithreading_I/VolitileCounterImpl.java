@@ -1,5 +1,7 @@
-public class UnsynchronizedCounterImpl implements SiteVisitCounter {
-    int counterVisitors;
+package multithreading_I;
+
+public class VolitileCounterImpl implements SiteVisitCounter{
+    volatile int counterVisitors;
 
     @Override
     public void incrementVisitCount() {
