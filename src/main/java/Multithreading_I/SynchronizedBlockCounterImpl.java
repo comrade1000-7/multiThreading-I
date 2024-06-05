@@ -1,3 +1,5 @@
+package Multithreading_I;
+
 public class SynchronizedBlockCounterImpl implements SiteVisitCounter{
 
     Integer counterVisitors = 0;
